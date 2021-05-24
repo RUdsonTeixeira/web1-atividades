@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+
+    <title>App-Viabiliade-Combustivel</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand">App Viabiliade de Combustivel</a>
+        </div>
+    </nav>
+    <section class="card-body">
+    <form class="container">
+            <div> 
+                <label class="row" >PREÇO DO LITRO DO ÁLCOOL</label>
+                <input class="form-control" type="number" name="valorDoAlcool">
+            </div>
+            
+            <div>
+                <label class="row">PREÇO DO LITRO DA GASOLINA</label>
+                <input class="form-control"type="number" name="valorDaGasolina">
+            </div>
+            
+            <div class="m-2">
+                <button class="btn btn-primary" name="btnCalcular">CALCULAR</button>
+            </div>
+           <!-- 
+            <div>
+                <input class="form-control"type="number" name="combustivelMaisVantajoso" disabled>
+            </div>
+            -->
+        </form>
+        <div class="container">
+            <div class="col-4">
+                <div class="alert alert-primary resultado">
+                
+                </div>
+            </div>
+        </div>
+    </section>
+        <script src="js/app.js"></script>
+    <script src="../../../bootstrap/js/bootstrap.bundle.min.js.map"></script>
+</body>
+</html>
