@@ -11,7 +11,7 @@ function calcular(){
         porcentagem = ((valorAlcool-valorGasolina)/(valorAlcool/100))
          resultado =`
             <p>
-                O valor do  Alcool é ${porcentagem} do valor da Gasolina,<br>
+                O valor do  Alcool é ${porcentagem}% do valor da Gasolina,<br>
                 ou seja, o combustível mais vantajoso é:
             </p>
             <p>
@@ -21,7 +21,7 @@ function calcular(){
     } else {
          resultado =`
             <p>
-                O valor do  Alcool é ${porcentagem} do valor da Gasolina,<br>
+                O valor do  Alcool é ${porcentagem}% do valor da Gasolina,<br>
                 ou seja, o combustível mais vantajoso é:
             </p>
             <p>
