@@ -7,17 +7,17 @@ let btnEnviar = document.querySelector('button[name=btnEnviar]')
 btnEnviar.addEventListener('click',validarLogin)
 
 function validarLogin(){
-    if((email === 'rudson@gmail.com') && (senha === '123456')){
-        loginValido
+    if((`${form.email.value}` == 'rudson@gmail.com') && (`${form.senha.value}` == '123456')){
+        loginValido()
     }else{
-        loginInvalido
+        loginInvalido()
     }
 }
 
 function loginValido(){
-   document.write(`Usuário Logado`)
+    document.write(`Usuário Logado`)
 }
 
 function loginInvalido(){
-   document.write(`Login ou senha inválidos`)
+    document.write(`Login ou senha inválidos`)
 }
